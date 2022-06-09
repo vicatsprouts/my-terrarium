@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "/secured",
+            "route": "/secured/*",
             "allowedRoles": ["authenticated"]
         }
     ]

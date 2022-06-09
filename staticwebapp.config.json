@@ -3,6 +3,10 @@
         {
             "route": "/secured/*",
             "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/secure.html",
+            "allowedRoles": ["authenticated"]
         }
     ]
 }
